@@ -1,4 +1,7 @@
 .main-navigation {
   background-color: #d9d9ec;
 }
+body {
+  color: red !important;
+}
 /*# sourceMappingURL=main.css.map */
