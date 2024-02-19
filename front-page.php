@@ -14,10 +14,9 @@
  */
 
 get_header();
-?>test azeaze az
+?>
 <main id="primary" class="site-main">
 </main><!-- #main -->
-
 <?php
 // get_sidebar();
 get_footer();
