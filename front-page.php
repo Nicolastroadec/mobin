@@ -24,7 +24,7 @@ get_footer();
 ?>
 
 <script>
-    const apiUrl = "https://api.wimi.pro";
+    const apiUrl = "https://mobinfrance.wimi.pro/api/";
 
     const requestBody = {
         header: {
