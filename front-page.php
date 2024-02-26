@@ -37,7 +37,7 @@ get_footer();
                 password: "jvADMINISTRATEUR2024"
             },
             api_version: "1.2",
-            app_token: "2E01F9A2-F98A-8A79-B93C-8D565F793338",
+            app_token: "46AF4751-C3CE-E958-CF8C-FE1524DE6C8F",
             msg_key: "a key that can be used to map the response with the request in async mode"
         },
         body: {
