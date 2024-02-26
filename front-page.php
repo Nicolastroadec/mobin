@@ -50,7 +50,6 @@ get_footer();
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "origin": "https://mobin.nicolastroadec.fr/",
             },
             body: JSON.stringify(requestBody),
         })
