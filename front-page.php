@@ -26,26 +26,32 @@ get_footer();
 <script>
     const apiUrl = "https://api.wimi.pro";
 
+    const requestBody = {
+        "header": {
+            "target": "auth.user.login",
+            "identification": {
+                "account_name": "mobinfrance"
+            },
+            "auth": {
+                "login": "jvuillaume@mobin-solutions.fr",
+                "password": "jvADMINISTRATEUR2024"
+            },
+            "api_version": "1.2",
+            "app_token": "46AF4751-C3CE-E958-CF8C-FE1524DE6C8F",
+            "msg_key": "POZA90823YHO"
+        },
+        "body": {
+            "data": null
+        }
+    };
+
     // Effectuer la requête fetch
     fetch(`${apiUrl}`, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                "target": "auth.user.login",
-                "identification": {
-                    "account_name": "mobinfrance"
-                },
-                "auth": {
-                    "login": "jvuillaume@mobin-solutions.fr",
-                    "password": "jvADMINISTRATEUR2024"
-                },
-                "api_version": "1.2",
-                "app_token": "46AF4751-C3CE-E958-CF8C-FE1524DE6C8F",
-                "msg_key": "POZA90823YHO"
+                'Content-Type': 'application/json'
             },
-            body: {
-                "data": {}
-            }
+            body: JSON.stringify(requestBody),
         })
         .then(response => {
             // Gérer les erreurs HTTP
