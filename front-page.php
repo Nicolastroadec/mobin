@@ -30,7 +30,7 @@ get_footer();
         header: {
             target: "auth.user.login",
             identification: {
-                account_name: "jvuillaume@mobin-solutions.fr"
+                account_name: "mobinfrance"
             },
             auth: {
                 login: "jvuillaume@mobin-solutions.fr",
