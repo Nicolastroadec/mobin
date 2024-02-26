@@ -38,7 +38,7 @@ get_footer();
             },
             api_version: "1.2",
             app_token: "46AF4751-C3CE-E958-CF8C-FE1524DE6C8F",
-            msg_key: "a key that can be used to map the response with the request in async mode"
+            msg_key: "POZA90823YHO"
         },
         body: {
             data: null
