@@ -20,3 +20,54 @@ get_header();
 <?php
 // get_sidebar();
 get_footer();
+
+?>
+
+<script>
+    const apiUrl = "https://api.wimi.pro";
+
+    const requestBody = {
+        header: {
+            target: "auth.user.login",
+            identification: {
+                account_name: "jvuillaume"
+            },
+            auth: {
+                login: "jvuillaume@mobin-solutions.fr",
+                password: "jvADMINISTRATEUR2024"
+            },
+            api_version: "1.2",
+            app_token: "2E01F9A2-F98A-8A79-B93C-8D565F793338",
+            msg_key: "a key that can be used to map the response with the request in async mode"
+        },
+        body: {
+            data: null
+        }
+    };
+
+    // Effectuer la requête fetch
+    fetch(`${apiUrl}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(requestBody),
+        })
+        .then(response => {
+            // Gérer les erreurs HTTP
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Afficher la réponse dans la console
+            console.log("Réponse de l'API :", data);
+            // Ajouter ici le code pour traiter la réponse selon vos besoins
+        })
+        .catch(error => {
+            // Gérer les erreurs de la requête
+            console.error("Erreur de requête :", error.message);
+            // Ajouter ici le code pour traiter les erreurs selon vos besoins
+        });
+</script>
