@@ -49,7 +49,7 @@ get_footer();
 ?>
 
 <script>
-    const apiUrl = "https://mobin.nicolastroadec.fr/backend.php"; // Chemin vers votre script PHP
+    const apiUrl = '<?php echo esc_url(get_template_directory_uri()); ?>/backend.php'; // Chemin vers votre script PHP
 
     const requestBody = {
         "header": {
