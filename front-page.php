@@ -24,7 +24,7 @@ get_footer();
 ?>
 
 <script>
-    const apiUrl = "https://mobinfrance.wimi.pro";
+    const apiUrl = "https://api.wimi.pro";
 
     const requestBody = {
         header: {
@@ -50,6 +50,7 @@ get_footer();
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
+                "origin": "https://mobin.nicolastroadec.fr/",
             },
             body: JSON.stringify(requestBody),
         })
