@@ -59,7 +59,7 @@ get_footer();
             },
             "auth": {
                 "login": "jvuillaume@mobin-solutions.fr",
-                "password": "jvADMINISTRATEUR2024"
+                "password": ""
             },
             "api_version": "1.2",
             "app_token": "46AF4751-C3CE-E958-CF8C-FE1524DE6C8F",
