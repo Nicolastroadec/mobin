@@ -24,13 +24,13 @@ get_footer();
 ?>
 
 <script>
-    const apiUrl = "https://api.wimi.pro";
+    const apiUrl = "https://api.mobinfrance.wimi.pro";
 
     const requestBody = {
         header: {
             target: "auth.user.login",
             identification: {
-                account_name: "jvuillaume"
+                account_name: "jvuillaume@mobin-solutions.fr"
             },
             auth: {
                 login: "jvuillaume@mobin-solutions.fr",
