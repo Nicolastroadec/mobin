@@ -93,9 +93,9 @@ get_footer();
             // Création du cookie en localhost
             document.cookie = `authtoken_mobinfrance=${data.header.token}; path=/; expires=Thu, 01 Jan 2025 00:00:00 GMT; samesite=none`;
 
-            const redirectUrl = 'https://mobinfrance.wimi.pro/login/#/'; // URL de redirection après l'authentification
+            const redirectUrl = 'https://mobinfrance.wimi.pro/#/dashboard'; // URL de redirection après l'authentification
             // Redirection vers le tableau de bord
-            //  window.location.href = redirectUrl;
+            window.location.href = redirectUrl;
 
             // Ajouter ici le code pour traiter la réponse selon vos besoins
         })
