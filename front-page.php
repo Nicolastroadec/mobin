@@ -95,7 +95,7 @@ get_footer();
 
             const redirectUrl = 'https://mobinfrance.wimi.pro/#/dashboard'; // URL de redirection après l'authentification
             // Redirection vers le tableau de bord
-            window.location.href = redirectUrl;
+            //    window.location.href = redirectUrl;
 
             // Ajouter ici le code pour traiter la réponse selon vos besoins
         })
