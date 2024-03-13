@@ -1,3 +1,18 @@
-.main-navigation {
-    background-color: rgb(217, 217, 236);
+@import './variable.scss';
+@import './template-parts/header.scss';
+
+.internal-section-width {
+    width: $width-desktop;
+    margin: auto;
+
+    /* Large devices (desktops, less than 1920px) */
+    @media (max-width: 1920px) {
+        width: $width-tablet;
+    }
+
+    /* Medium devices (tablets, less than 1280px) */
+    @media (max-width: 1280px) {
+        width: $width-mobile;
+
+    }
 }
