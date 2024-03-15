@@ -17,3 +17,11 @@ Call Stack:
 Call Stack:
 #0 import ./base/_reinitialisation.scss main.scss on line 4
 03/15/24 2:30:42: main.scss - parse error: failed at `white` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_footer.scss on line 28, at column 21
+03/15/24 3:35:33: main.scss - parse error: failed at `position:` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_hero-front-page.scss on line 5, at column 5
+03/15/24 3:35:35: main.scss - parse error: failed at `position:` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_hero-front-page.scss on line 5, at column 5
+03/15/24 3:43:27: main.scss - Undefined variable $blue: ./layout/_hero-front-page.scss on line 13, at column 13
+Call Stack:
+#0 import ./layout/_hero-front-page.scss main.scss on line 10
+03/15/24 3:43:28: main.scss - Undefined variable $blue: ./layout/_hero-front-page.scss on line 13, at column 13
+Call Stack:
+#0 import ./layout/_hero-front-page.scss main.scss on line 10

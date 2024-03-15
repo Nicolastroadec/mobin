@@ -185,6 +185,31 @@ header #site-navigation #primary-menu li:nth-child(1) {
 .hero {
   height: 40vh;
   overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  position: absolute;
+  bottom: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 span {
+  width: fit-content;
+}
+.hero h1 span:nth-child(1) {
+  background-color: #2699B0;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.hero h1 span:nth-child(2) {
+  background-color: #E95E2E;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 4rem;
 }
 .hero img {
   width: 100%;
