@@ -1,28 +1,19 @@
-03/05/24 6:08:23: main.scss - `./template-parts/variable.scss` file not found for @import: main.scss on line 1, at column 0
-03/05/24 6:08:23: main.scss - `./template-parts/variable.scss` file not found for @import: main.scss on line 1, at column 0
-03/05/24 6:09:34: main.scss - parse error: failed at `a (` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 12, at column 21
-03/05/24 6:09:34: main.scss - parse error: failed at `a (` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 12, at column 21
-03/13/24 10:42:19: main.scss - unclosed block: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 39, at column 0
-03/13/24 2:46:37: main.scss - parse error: failed at `&` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 19, at column 17
-03/13/24 2:55:16: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:55:19: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:55:20: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:55:43: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:56:16: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:56:20: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:56:21: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:56:43: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:57:17: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:57:18: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:57:58: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:57:59: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:58:01: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:58:08: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:58:18: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 2:58:19: main.scss - unexpected }: failed at `` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./template-parts/header.scss on line 57, at column 0
-03/13/24 3:26:35: main.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./variable.scss on line 13, at column 1
-03/13/24 3:26:35: variable.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/variable.scss on line 13, at column 1
-03/13/24 3:26:36: main.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./variable.scss on line 13, at column 1
-03/13/24 3:26:36: variable.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/variable.scss on line 13, at column 1
-03/13/24 3:26:36: main.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./variable.scss on line 13, at column 1
-03/13/24 3:26:36: variable.scss - parse error: failed at `$blue` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/variable.scss on line 13, at column 1
+03/15/24 1:44:25: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:45:49: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:45:49: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:47:50: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:47:50: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:48:40: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 2:30:42: main.scss - parse error: failed at `white` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_footer.scss on line 28, at column 21

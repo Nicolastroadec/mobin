@@ -18,9 +18,6 @@ function theme_support_menu()
 add_action('after_setup_theme', 'theme_support_menu');
 
 
-
-
-
 function register_custom_menus()
 {
     register_nav_menus(array(
@@ -29,3 +26,6 @@ function register_custom_menus()
     ));
 }
 add_action('init', 'register_custom_menus');
+
+
+add_theme_support('post-thumbnails');

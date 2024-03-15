@@ -16,20 +16,13 @@
 
 get_header();
 ?>
+<div class="hero">
+    <?php $image_mise_en_avant = get_the_post_thumbnail_url(); ?>
+    <img src="<?= $image_mise_en_avant; ?>" alt="<?= get_the_title(); ?>">
+</div>
+<?php require_once(get_template_directory() . '/inc/inc-articles.php'); ?>
+
 <main id="primary" class="site-main">
-
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
-    <!-- Leaflet JavaScript -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <!--     <div id="map" style="height: 400px;"></div>
- -->
-    <script>
-
-
-    </script>
-
 </main><!-- #main -->
 
 

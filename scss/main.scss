@@ -1,18 +1,13 @@
-@import './variable.scss';
-@import './template-parts/header.scss';
+// Base
+@import './base/variables';
+@import './base/fonts';
+@import './base/reinitialisation';
 
-.internal-section-width {
-    width: $width-desktop;
-    margin: auto;
+// Layout
+@import './layout/footer';
+@import './layout/container';
+@import './layout/header';
+@import './layout/hero-front-page';
 
-    /* Large devices (desktops, less than 1920px) */
-    @media (max-width: 1920px) {
-        width: $width-tablet;
-    }
-
-    /* Medium devices (tablets, less than 1280px) */
-    @media (max-width: 1280px) {
-        width: $width-mobile;
-
-    }
-}
+// Pages
+@import './pages/etc';

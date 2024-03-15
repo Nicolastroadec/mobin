@@ -1,0 +1,52 @@
+.hero {
+    height: 40vh;
+    overflow: hidden;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+.articles-hero {
+    position: relative;
+    top: -5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 22%);
+    grid-gap: 1rem;
+    justify-content: space-between;
+
+    .image-link {
+        img {
+            width: 100%;
+            border: 6px solid rgb(196, 196, 196);
+            border-radius: 10px;
+        }
+    }
+
+    .info-article {
+        h2 {}
+
+        .date-publication {
+            color: $blueAzure;
+            margin-bottom: 0.2rem;
+        }
+
+        .ville {
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            color: $darkGrey;
+        }
+
+        .excerpt {
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            color: $darkGrey;
+        }
+
+        .lire-la-suite {
+            color: $orange;
+            text-decoration: none;
+        }
+    }
+}
