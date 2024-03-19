@@ -20,7 +20,7 @@ $children = get_children($args);
     if (!empty($children)) {
         foreach ($children as $child) {
             $lien_article = get_permalink();
-            $image_mise_en_avant = get_the_post_thumbnail_url();
+            $image_mise_en_avant = get_the_post_thumbnail_url($child->ID);
             $date_publication = $child->post_date_gmt;
 
             // Récupérer le champ ACF "ville" associé à la page enfant
