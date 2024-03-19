@@ -36,7 +36,7 @@ $reseaux_sociaux = get_field('reseaux_sociaux', 'option'); ?>
 			<?php foreach ($reseaux_sociaux ?? [] as $reseau) : ?>
 				<div class="reseau-social">
 					<?php if (isset($reseau['image']['url'])) : ?>
-						<?= file_get_contents($reseau['image']['url']) ?? '' ?>
+						<img src="<?= $reseau['image']['url'] ?? '' ?>" alt="<?= $reseau['image']['alt'] ?? '' ?>" />
 					<?php endif; ?>
 					<a href="<?= $reseau['lien_du_reseau_social']['url'] ?? '' ?>"></a>
 				</div>

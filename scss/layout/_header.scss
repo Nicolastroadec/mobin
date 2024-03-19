@@ -1,5 +1,10 @@
 header {
+    background: white;
+    z-index: 10;
+    position: fixed;
+    width: 100% !important;
     display: flex;
+    justify-content: center;
 
     .site-branding {}
 

@@ -19,8 +19,4 @@ function registerMapScript()
 
 add_action('wp_enqueue_scripts', 'registerMapScript');
 
-
-
-
-
 add_theme_support('post-thumbnails');
