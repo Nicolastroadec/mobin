@@ -1,0 +1,12 @@
+{
+  "name": "mobin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass compile": "rm css/main.css.map && sass scss/:css/ --style compressed --no-source-map",
+    "sass watch": "sass --watch scss:css"
+  },
+  "author": "",
+  "license": "ISC"
+}
