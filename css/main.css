@@ -151,9 +151,7 @@ header #site-navigation #primary-menu > .menu-item {
 }
 header #site-navigation #primary-menu > .menu-item:hover {
   border-bottom: 5px solid #2699B0;
-  border-left: none;
   border-top: none;
-  border-right: none;
 }
 header #site-navigation #primary-menu > .menu-item:hover > .sub-menu {
   display: flex;

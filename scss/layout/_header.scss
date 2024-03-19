@@ -30,9 +30,7 @@ header {
 
                 &:hover {
                     border-bottom: 5px solid $blueAzure;
-                    border-left: none;
                     border-top: none;
-                    border-right: none;
 
                     &>.sub-menu {
                         display: flex;
