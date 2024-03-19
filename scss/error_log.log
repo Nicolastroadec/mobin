@@ -25,3 +25,30 @@ Call Stack:
 03/15/24 3:43:28: main.scss - Undefined variable $blue: ./layout/_hero-front-page.scss on line 13, at column 13
 Call Stack:
 #0 import ./layout/_hero-front-page.scss main.scss on line 10
+03/19/24 10:06:36: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:37: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:37: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:39: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:40: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:41: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:41: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:42: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:43: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
