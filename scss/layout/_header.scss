@@ -27,10 +27,10 @@ header {
 
             &>.menu-item {
                 position: relative;
-                margin-bottom: 10px;
+                margin-bottom: 7px;
 
                 &:hover {
-                    border-bottom: 10px solid $blueAzure; // border-bottom
+                    border-bottom: 7px solid $blueAzure; // border-bottom
                     margin-bottom: 0px;
                     border-top: none;
 
@@ -42,7 +42,7 @@ header {
                 &>.sub-menu {
                     background-color: $lightGrey;
                     position: fixed;
-                    top: 130px; // height + border-bottom
+                    top: 127px; // height + border-bottom
                     display: none;
                     padding: 5%;
                     left: 0;
