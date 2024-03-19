@@ -332,6 +332,7 @@ header #site-navigation #primary-menu li:nth-child(1) {
 
 #map {
   margin: auto;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

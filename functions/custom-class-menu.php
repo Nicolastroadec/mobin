@@ -26,7 +26,6 @@ function save_custom_menu_item_custom_fields($menu_id, $menu_item_db_id, $args)
         $custom_class = sanitize_text_field($_POST['menu-item-custom-class'][$menu_item_db_id]);
         update_post_meta($menu_item_db_id, '_menu_item_custom_class', $custom_class);
     }
-    print_r(get_post_meta($menu_item_db_id, '_menu_item_custom_class', true));
 }
 add_action('wp_update_nav_menu_item', 'save_custom_menu_item_custom_fields', 10, 3);
 
