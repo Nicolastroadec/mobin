@@ -3,8 +3,9 @@
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <!--     <div id="map" style="height: 400px;"></div>
- -->
+
+    <div id="map" style="height: 500px; width: 1000px"></div>
+
     <script>
 
 

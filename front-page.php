@@ -31,8 +31,7 @@ $deuxieme_phrase_titre = get_field('deuxieme_phrase_titre', $id);
 </div>
 <?php require_once(get_template_directory() . '/inc/inc-articles.php'); ?>
 
-<?= do_shortcode('[sibwp_form id=1]'); ?>
-
+<?php require_once(get_template_directory() . '/inc/inc-newsletter.php'); ?>
 <main id="primary" class="site-main">
 </main><!-- #main -->
 

@@ -301,4 +301,7 @@ header #site-navigation #primary-menu li:nth-child(1) {
   border: none;
   padding: 8px;
 }
+#map {
+  margin: auto;
+}
 /*# sourceMappingURL=main.css.map */
