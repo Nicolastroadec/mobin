@@ -27,9 +27,11 @@ header {
 
             &>.menu-item {
                 position: relative;
+                padding-bottom: 5px;
 
                 &:hover {
                     border-bottom: 5px solid $blueAzure;
+                    padding-bottom: 0px;
                     border-top: none;
 
                     &>.sub-menu {

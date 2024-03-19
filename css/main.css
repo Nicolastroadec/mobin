@@ -148,9 +148,11 @@ header #site-navigation #primary-menu .menu-etage-1 {
 }
 header #site-navigation #primary-menu > .menu-item {
   position: relative;
+  padding-bottom: 5px;
 }
 header #site-navigation #primary-menu > .menu-item:hover {
   border-bottom: 5px solid #2699B0;
+  padding-bottom: 0px;
   border-top: none;
 }
 header #site-navigation #primary-menu > .menu-item:hover > .sub-menu {
