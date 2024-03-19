@@ -148,11 +148,11 @@ header #site-navigation #primary-menu .menu-etage-1 {
 }
 header #site-navigation #primary-menu > .menu-item {
   position: relative;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 header #site-navigation #primary-menu > .menu-item:hover {
-  border-bottom: 5px solid #2699B0;
-  padding-bottom: 0px;
+  border-bottom: 10px solid #2699B0;
+  margin-bottom: 0px;
   border-top: none;
 }
 header #site-navigation #primary-menu > .menu-item:hover > .sub-menu {
@@ -161,7 +161,7 @@ header #site-navigation #primary-menu > .menu-item:hover > .sub-menu {
 header #site-navigation #primary-menu > .menu-item > .sub-menu {
   background-color: #cacaca;
   position: fixed;
-  top: 120px;
+  top: 130px;
   display: none;
   padding: 5%;
   left: 0;

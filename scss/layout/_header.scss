@@ -22,16 +22,16 @@ header {
             height: 100%;
 
             .menu-etage-1 {
-                height: 120px;
+                height: 120px; // height
             }
 
             &>.menu-item {
                 position: relative;
-                padding-bottom: 5px;
+                margin-bottom: 10px;
 
                 &:hover {
-                    border-bottom: 5px solid $blueAzure;
-                    padding-bottom: 0px;
+                    border-bottom: 10px solid $blueAzure; // border-bottom
+                    margin-bottom: 0px;
                     border-top: none;
 
                     &>.sub-menu {
@@ -42,7 +42,7 @@ header {
                 &>.sub-menu {
                     background-color: $lightGrey;
                     position: fixed;
-                    top: 120px;
+                    top: 130px; // height + border-bottom
                     display: none;
                     padding: 5%;
                     left: 0;
