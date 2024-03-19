@@ -12,10 +12,10 @@ header {
         #primary-menu {
             display: flex;
             margin: 0;
+            height: 100%;
 
             .menu-etage-1 {
                 height: 120px;
-
             }
 
             &>.menu-item {
