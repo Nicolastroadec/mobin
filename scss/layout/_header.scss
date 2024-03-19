@@ -29,6 +29,9 @@ header {
                 position: relative;
 
                 &:hover {
+                    border-bottom: 3px solid $blueAzure;
+                    border-style: inset;
+
                     &>.sub-menu {
                         display: flex;
                     }
