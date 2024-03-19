@@ -5,10 +5,9 @@ var bretagneCoordinates = [48.2020, -2.9326];
 var map = L.map('map').setView(bretagneCoordinates, 8);
 
 // Utiliser les tuiles OpenStreetMap
-L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png', {
-    attribution: '© Stamen Design'
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
 }).addTo(map);
-
 
 // Coordonnées pour Rennes et Brest
 var rennesCoordinates = [48.1173, -1.6778];
