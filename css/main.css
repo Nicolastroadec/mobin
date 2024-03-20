@@ -215,7 +215,6 @@ header #site-navigation #primary-menu li a {
   justify-content: center;
   padding: 1rem 2rem;
   text-align: center;
-  padding-left: 0 !important;
 }
 header #site-navigation #primary-menu li:nth-child(1) {
   border-left: 1px solid black;
