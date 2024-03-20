@@ -32,6 +32,9 @@ $deuxieme_phrase_titre = get_field('deuxieme_phrase_titre', $id);
 <?php require_once(get_template_directory() . '/inc/inc-articles.php'); ?>
 
 <?php require_once(get_template_directory() . '/inc/inc-newsletter.php'); ?>
+
+<?php require_once(get_template_directory() . '/inc/inc-chatbot.php'); ?>
+
 <main id="primary" class="site-main">
 </main><!-- #main -->
 

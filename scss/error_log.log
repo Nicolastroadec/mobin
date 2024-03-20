@@ -52,3 +52,6 @@ Call Stack:
 03/19/24 10:06:43: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
 Call Stack:
 #0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 4:56:39: main.scss - Undefined variable $darkgrey: ./layout/_chatbot.scss on line 5, at column 5
+Call Stack:
+#0 import ./layout/_chatbot.scss main.scss on line 13
