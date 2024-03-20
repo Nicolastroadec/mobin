@@ -291,6 +291,8 @@ header #site-navigation #primary-menu li:nth-child(1) {
   cursor: pointer;
   top: 0;
   right: 0;
+  width: 20px;
+  height: 20px;
 }
 .sib_signup_form #close-brevo-popup .dash {
   width: 15px;
@@ -322,30 +324,46 @@ header #site-navigation #primary-menu li:nth-child(1) {
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  border: 1px solid #4A4A49;
-  border-radius: 5px;
-  background-color: white;
   z-index: 10;
 }
 #chatbot #screen-0 {
-  width: 100px;
+  width: 50px;
   height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+}
+#chatbot #screen-0 img {
+  width: 100%;
+  height: auto;
 }
 #chatbot #screen-1 {
   display: none;
   padding: 2rem;
+  border: 1px solid #4A4A49;
+  border-radius: 10px;
+  background-color: white;
 }
 #chatbot #screen-2 {
   display: none;
   padding: 2rem;
+  border: 1px solid #4A4A49;
+  border-radius: 10px;
+  background-color: white;
 }
 #chatbot #screen-3 {
   display: none;
   padding: 2rem;
+  border: 1px solid #4A4A49;
+  border-radius: 10px;
+  background-color: white;
 }
 #chatbot #screen-4 {
   display: none;
   padding: 2rem;
+  border: 1px solid #4A4A49;
+  border-radius: 10px;
+  background-color: white;
 }
 #chatbot .screen-chatbot {
   display: flex;

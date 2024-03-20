@@ -5,10 +5,11 @@
  */
 
 get_header();
+$image_chatbot = get_field('image_chatbot', 'option');
 ?>
 <div id="chatbot">
     <div class="chatbot-intro" id="screen-0">
-        Chatbot
+        <img src="<?= $image_chatbot['url'] ?? '' ?>">
     </div>
 
     <div class="screen-chatbot" id="screen-1">
