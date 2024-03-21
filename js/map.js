@@ -88,7 +88,7 @@ var brestCoordinates = [48.3904, -4.4860];
 
 // Définir l'icône personnalisée
 var customIcon = L.icon({
-    iconUrl: 'https://nicolastroadec.fr/assets/images/logo-site.svg',
+    iconUrl: 'https://mobin.nicolastroadec.fr/wp-content/themes/mobin/assets/img/bicyclette.png',
     iconSize: [38, 38], // Taille de l'icône en pixels
     iconAnchor: [19, 38], // Point d'ancrage de l'icône, correspondant au centre de l'image
     popupAnchor: [0, -38] // Point d'ancrage du popup par rapport à l'icône
