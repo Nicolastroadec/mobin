@@ -1,7 +1,9 @@
 // Coordonnées pour localiser la carte sur la Bretagne
-var bretagneCoordinates = [48.2020, -2.9326];
 
 // Créer la carte avec OpenStreetMap comme fournisseur de tuiles
+
+
+var bretagneCoordinates = [48.2020, -2.9326];
 var map = L.map('map').setView(bretagneCoordinates, 8);
 
 var map2 = L.map('map2').setView(bretagneCoordinates, 8);
