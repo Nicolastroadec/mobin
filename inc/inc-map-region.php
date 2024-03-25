@@ -46,7 +46,7 @@
 
         <div class="map" id="map27" style="height: 500px; width: 1000px"></div>
 
-        <h2>ArcgisOnline</h2><br><br>
+        <h2>ArcgisOnline (gratuit) </h2><br><br>
 
         <div class="map" id="map3" style="height: 500px; width: 1000px"></div>
 
