@@ -6,12 +6,12 @@
     <div class="internal-section-width">
 
 
-<!--         <h2>Map Test</h2><br><br>
+        <!--         <h2>Map Test</h2><br><br>
 
         <div class="map" id="map01" style="height: 500px; width: 1000px"></div>
  -->
 
-        <h2>OpenStreetMap - 1</h2><br><br>
+        <h2>OpenStreetMap (gratuit) - 1</h2><br><br>
 
         <div class="map" id="map11" style="height: 500px; width: 1000px"></div>
 
@@ -19,7 +19,7 @@
 
         <div class="map" id="map12" style="height: 500px; width: 1000px"></div>
 
-        <h2>Carto - 1</h2><br><br>
+        <h2>Carto (gratuit) - 1</h2><br><br>
 
         <div class="map" id="map2" style="height: 500px; width: 1000px"></div><br>
 
