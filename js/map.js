@@ -3,38 +3,86 @@
 // Créer la carte avec OpenStreetMap comme fournisseur de tuiles
 
 
-var bretagneCoordinates = [48.2020, -2.9326];
-var map = L.map('map').setView(bretagneCoordinates, 8);
+let bretagneCoordinates = [48.2020, -2.9326];
 
-var map2 = L.map('map2').setView(bretagneCoordinates, 8);
+let properties = {
+    minZoom: 8,
+    maxZoom: 8,
+    dragging: false,
+    scrollWheelZoom: false,
+    doubleClickZoom: false
+};
 
-var map3 = L.map('map3').setView(bretagneCoordinates, 8);
+// let map01 = L.map('map01', properties).setView(bretagneCoordinates, 8);
 
-var map4 = L.map('map4').setView(bretagneCoordinates, 8);
+let map11 = L.map('map11', properties).setView(bretagneCoordinates, 8);
+let map12 = L.map('map12', properties).setView(bretagneCoordinates, 8);
 
-var map5 = L.map('map5').setView(bretagneCoordinates, 8);
-var map6 = L.map('map6').setView(bretagneCoordinates, 8);
-
-var map7 = L.map('map7').setView(bretagneCoordinates, 8);
-
-var map8 = L.map('map8').setView(bretagneCoordinates, 8);
-
-var map9 = L.map('map9').setView(bretagneCoordinates, 8);
-
-var map10 = L.map('map10').setView(bretagneCoordinates, 8);
-
+let map = L.map('map', properties).setView(bretagneCoordinates, 8);
+let map2 = L.map('map2', properties).setView(bretagneCoordinates, 8);
+let map22 = L.map('map22', properties).setView(bretagneCoordinates, 8);
+let map23 = L.map('map23', properties).setView(bretagneCoordinates, 8);
+/* let map24 = L.map('map24', properties).setView(bretagneCoordinates, 8);
+ */let map25 = L.map('map25', properties).setView(bretagneCoordinates, 8);
+let map26 = L.map('map26', properties).setView(bretagneCoordinates, 8);
+let map27 = L.map('map27', properties).setView(bretagneCoordinates, 8);
 
 
+
+let map3 = L.map('map3', properties).setView(bretagneCoordinates, 8);
+let map4 = L.map('map4', properties).setView(bretagneCoordinates, 8);
+let map5 = L.map('map5', properties).setView(bretagneCoordinates, 8);
+let map6 = L.map('map6', properties).setView(bretagneCoordinates, 8);
+let map7 = L.map('map7', properties).setView(bretagneCoordinates, 8);
+let map8 = L.map('map8', properties).setView(bretagneCoordinates, 8);
+let map9 = L.map('map9', properties).setView(bretagneCoordinates, 8);
+let map10 = L.map('map10', properties).setView(bretagneCoordinates, 8);
+
+
+/* L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+}).addTo(map01); */
 
 // Utiliser les tuiles OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
+}).addTo(map11);
+
+L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+}).addTo(map12);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/nicolastroadec/clu10mdy400nu01qwgizt8el8/tiles/512/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmljb2xhc3Ryb2FkZWMiLCJhIjoiY2x1MTBrOTR5MGV5eDJsbjBrdGRrcWNyNyJ9.7m60Z52KxMHCajM-fbksNw', {
+    attribution: '© Mapbox'
 }).addTo(map);
 
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
     attribution: '© CARTO'
 }).addTo(map2);
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map22);
+
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map23);
+
+/* L.tileLayer('https://cartocdn_{s}.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map24);
+ */
+L.tileLayer('https://cartocdn_{s}.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map25);
+
+L.tileLayer('https://cartocdn_{s}.global.ssl.fastly.net/base-flatblue/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map26);
+L.tileLayer('https://cartocdn_{s}.global.ssl.fastly.net/base-midnight/{z}/{x}/{y}.png', {
+    attribution: '© CARTO'
+}).addTo(map27);
+
 
 
 // arcgisonline.com
@@ -59,12 +107,9 @@ L.tileLayer('https://{s}.tile.thunderforest.com/transport-dark/{z}/{x}/{y}.png?a
 }).addTo(map6);
 
 
-
 L.tileLayer('https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=f9ca54ba5a4b46608b76a81c5e910be3', {
     attribution: '&copy; Thunderforest'
 }).addTo(map7);
-
-
 
 L.tileLayer('https://{s}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=f9ca54ba5a4b46608b76a81c5e910be3', {
     attribution: '&copy; Thunderforest'
@@ -85,11 +130,11 @@ L.tileLayer('https://{s}.tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=f9c
 
 
 // Coordonnées pour Rennes et Brest
-var rennesCoordinates = [48.1173, -1.6778];
-var brestCoordinates = [48.3904, -4.4860];
+let rennesCoordinates = [48.1173, -1.6778];
+let brestCoordinates = [48.3904, -4.4860];
 
 // Définir l'icône personnalisée
-var customIcon = L.icon({
+let customIcon = L.icon({
     iconUrl: 'https://mobin.nicolastroadec.fr/wp-content/themes/mobin/assets/img/bicyclette.png',
     iconSize: [38, 38], // Taille de l'icône en pixels
     iconAnchor: [19, 38], // Point d'ancrage de l'icône, correspondant au centre de l'image
@@ -101,62 +146,12 @@ var customIcon = L.icon({
 
 // add these coordinates to each map above 
 
-L.marker(rennesCoordinates, { icon: customIcon }).addTo(map)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
+let rennes = '<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350';
+let brest = '<b>Brest</b><br>Population : 139 000<br>Adhérents : 220';
 
-L.marker(brestCoordinates).addTo(map)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
+let maps = [map, map2, map22, map23, map25, map3, map4, map5, map6, map7, map8, map9, map10, map11, map12];
 
-L.marker(rennesCoordinates).addTo(map2)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map2)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map3)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map3)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map4)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map4)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map5)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map5)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map6)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map6)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map7)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map7)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map8)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map8)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map9)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map9)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
-
-L.marker(rennesCoordinates).addTo(map10)
-    .bindPopup('<b>Rennes</b><br>Population : 215 000<br>Adhérents : 350');
-
-L.marker(brestCoordinates).addTo(map10)
-    .bindPopup('<b>Brest</b><br>Population : 139 000<br>Adhérents : 220');
+maps.forEach(map => {
+    L.marker(rennesCoordinates).addTo(map).bindPopup(rennes);
+    L.marker(brestCoordinates).addTo(map).bindPopup(brest);
+})
